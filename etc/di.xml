@@ -1,0 +1,14 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+
+    <type name="Magento\Framework\App\AreaList">
+        <arguments>
+            <argument name="areas" xsi:type="array">
+                <item name="showapplicationstate" xsi:type="array">
+                    <item name="frontName" xsi:type="string">showappstate</item>
+                </item>
+            </argument>
+        </arguments>
+    </type>
+
+</config>
